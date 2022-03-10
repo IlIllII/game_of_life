@@ -84,6 +84,6 @@ if __name__ == "__main__":
     print(f"\033[8;{height + 1};{width + 1}t")  # Resizing terminal window
 
     while True:
-        print(b, end="\033[A" * height, flush=True)
+        print(b, end="\033[A" * height, flush=True)  # Move up to top after each print
         b.update()
         time.sleep(1 / fps)
