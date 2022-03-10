@@ -2,6 +2,8 @@
 
 This is game of life in the terminal starting with the `r` tetromino.
 
+![GoL](https://user-images.githubusercontent.com/78166995/157757765-e4fc8eea-511f-4f47-a7fa-e2348f597c29.PNG)
+
 ## Getting started
 
 To play the game, simply run the script:
